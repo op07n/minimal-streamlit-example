@@ -1,0 +1,36 @@
+  
+name: rhyme-with-ai
+channels:
+  - defaults
+  - conda-forge
+  - https://conda.anaconda.org/t/6N-MsQ4WZ7jo/soumith
+dependencies:
+  - ipykernel
+  - python=3.7
+  - torchvision
+  - pip
+  - pip:
+    - GitPython
+    - pathtools
+    - Pillow==6.1.0
+    - streamlit
+    - jupyter-server-proxy 
+    - nbserverproxy
+    - datetime
+    - transformers
+    - torch
+    - fastai
+    - numpy
+    - scipy
+    - pandas
+    - pandas-profiling
+    - sklearn
+    - plotly
+    - matplotlib
+    - seaborn
+    - joblib
+    - termcolor
+    - hvplot
+    - bokeh
+    - holoviews
+    - scikit-learn
