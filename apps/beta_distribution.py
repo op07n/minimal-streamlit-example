@@ -114,8 +114,8 @@ Let us assume that we made three observations of activity for a mutant:
 """
 )
 
-with st.echo():
-    data = [0.83, 0.86, 0.91]
+data = [0.83, 0.86, 0.91]
+st.write(data)
 
 st.write(
     """
@@ -140,10 +140,10 @@ Which parameter values should best explain these values?
 (Hint, it's approximately a ratio of alpha:beta ~ 1:1)
 """
 )
-
-with st.echo():
-    data = [0.53, 0.56, 0.51]
-
+   
+data = [0.53, 0.56, 0.51]
+st.write(data)  
+    
 plot_dist(alpha_slider, beta_slider, data)
 
 st.write(
